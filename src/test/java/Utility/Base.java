@@ -28,6 +28,12 @@ public class Base
 		driver.quit();
 		//---
 	}
+		public void bandBrowser1() throws IOException
+	{
+		driver.close();
+		driver.quit();
+		//---
+	}
 	
 	
 }
