@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="28.199">
+    <testcase classname="Shopping App" name="To search the things1" time="11.45">
+        <system-out><![CDATA[Given User searches "Cucumber"..............................................passed
+Then Search result should get displayed "Cucumber"..........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Shopping App" name="To search the things and move to checkout Page" time="16.409">
+        <system-out><![CDATA[Given User searches "Brinjal"...............................................passed
+And Added items to cart.....................................................passed
+And User proceeded to Chekout page for purchase.............................passed
+Then verify selected "Brinjal" items are displayed in check out page........passed
+]]></system-out>
+    </testcase>
+</testsuite>

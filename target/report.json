@@ -1,0 +1,185 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-17T08:23:14.911Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8556420800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionFile.Hooks.startBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To search the things1",
+        "description": "",
+        "id": "shopping-app;to-search-the-things1",
+        "after": [
+          {
+            "result": {
+              "duration": 385050300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionFile.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2316652000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User searches \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionFile.stepDef1.user_searches(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 44578900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Search result should get displayed \"Cucumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cucumber",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitionFile.stepDef2.search_result_should_get_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-17T08:23:26.393Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6851877900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionFile.Hooks.startBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "To search the things and move to checkout Page",
+        "description": "",
+        "id": "shopping-app;to-search-the-things-and-move-to-checkout-page",
+        "after": [
+          {
+            "result": {
+              "duration": 585211100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionFile.Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2362822200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User searches \"Brinjal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitionFile.stepDef1.user_searches(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4390939200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Added items to cart",
+            "match": {
+              "location": "StepDefinitionFile.stepDef1.added_items_to_carts()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2164590700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User proceeded to Chekout page for purchase",
+            "match": {
+              "location": "StepDefinitionFile.stepDef1.proceed_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41274700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "verify selected \"Brinjal\" items are displayed in check out page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefinitionFile.stepDef2.checkout_page_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping App",
+    "description": "",
+    "id": "shopping-app",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFiles/feature1.feature",
+    "tags": []
+  }
+]
