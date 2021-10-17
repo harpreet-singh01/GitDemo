@@ -25,6 +25,8 @@ public class Base
 	public void bandBrowser() throws IOException
 	{
 		driver.close();
+		driver.quit();
+		//---
 	}
 	
 	
